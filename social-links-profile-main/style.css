@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#141414 ;
+    color: white;
+    font-family: inherit;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+main{
+    background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.outbox{
+    width: 394px;
+    height: 657px;
+    background-color:  #1f1f1f;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-box  img{
+    width: 88px;
+    margin: 15px 148px 0 148px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+.text-primary {
+    padding: 24px 24px 0 24px;
+    text-align: center;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.text-primary p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #c4f82a;
+    margin: 4px;
+
+}
+.text-second {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    height: 384px;
+    width: 284px;
+    gap: 16px;
+    margin: 24px 40px 40px 40px;
+}
+.btn-box{
+    color: white;
+    background-color: #333;
+    width: 304px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 8px;
+    
+}
+.btn-box:last-child {
+    margin-bottom: 16px;
+  }
+  
+  .btn-box:hover {
+    cursor: pointer;
+    background-color: #c4f82a;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+  }
